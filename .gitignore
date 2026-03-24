@@ -1,21 +1,72 @@
-# macOS
+# =========================
+# OS
+# =========================
 .DS_Store
+Thumbs.db
 
+# =========================
 # Python
+# =========================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+venv/
+.env
+.venv/
 
+# pytest
+.pytest_cache/
+
+# =========================
 # Android / IntelliJ
+# =========================
 .idea/
 *.iml
 .gradle/
 local.properties
 build/
+captures/
+.externalNativeBuild/
 
-# Web
+# =========================
+# Node / Web
+# =========================
 node_modules/
 dist/
-.env
+build/
+coverage/
 
+# =========================
 # Logs
+# =========================
 *.log
+logs/
+
+# =========================
+# Test reports
+# =========================
+allure-results/
+allure-report/
+reports/
+test-output/
+
+# =========================
+# API / Postman
+# =========================
+*.postman_collection.json
+*.postman_environment.json
+
+# =========================
+# Misc
+# =========================
+tmp/
+temp/
+.cache/
+.vscode/
+
+# =========================
+# Secrets (важно!)
+# =========================
+.env
+.env.*
